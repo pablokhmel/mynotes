@@ -8,25 +8,42 @@
 
 /* Begin PBXFileReference section */
 		32BE74352DC93FE300630D25 /* MyNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BE74522DC943ED00630D25 /* MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BE74822DE0A14900630D25 /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		32BE74472DC93FE500630D25 /* Exceptions for "MyNotes" folder in "MyNotes" target */ = {
+		32BE74632DC943EE00630D25 /* Exceptions for "MVVM" folder in "MVVM" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 32BE74342DC93FE300630D25 /* MyNotes */;
+			target = 32BE74512DC943ED00630D25 /* MVVM */;
+		};
+		32BE74952DE0A14A00630D25 /* Exceptions for "VIPER" folder in "VIPER" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 32BE74812DE0A14900630D25 /* VIPER */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		32BE74372DC93FE300630D25 /* MyNotes */ = {
+		32BE74532DC943ED00630D25 /* MVVM */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				32BE74472DC93FE500630D25 /* Exceptions for "MyNotes" folder in "MyNotes" target */,
+				32BE74632DC943EE00630D25 /* Exceptions for "MVVM" folder in "MVVM" target */,
 			);
-			path = MyNotes;
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		32BE74832DE0A14900630D25 /* VIPER */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				32BE74952DE0A14A00630D25 /* Exceptions for "VIPER" folder in "VIPER" target */,
+			);
+			path = VIPER;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -39,13 +56,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32BE744F2DC943ED00630D25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BE747F2DE0A14900630D25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		32BE742C2DC93FE300630D25 = {
 			isa = PBXGroup;
 			children = (
-				32BE74372DC93FE300630D25 /* MyNotes */,
+				32BE74532DC943ED00630D25 /* MVVM */,
+				32BE74832DE0A14900630D25 /* VIPER */,
 				32BE74362DC93FE300630D25 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				32BE74352DC93FE300630D25 /* MyNotes.app */,
+				32BE74522DC943ED00630D25 /* MVVM.app */,
+				32BE74822DE0A14900630D25 /* VIPER.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,14 +107,55 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				32BE74372DC93FE300630D25 /* MyNotes */,
-			);
 			name = MyNotes;
 			packageProductDependencies = (
 			);
 			productName = MyNotes;
 			productReference = 32BE74352DC93FE300630D25 /* MyNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32BE74512DC943ED00630D25 /* MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BE74642DC943EE00630D25 /* Build configuration list for PBXNativeTarget "MVVM" */;
+			buildPhases = (
+				32BE744E2DC943ED00630D25 /* Sources */,
+				32BE744F2DC943ED00630D25 /* Frameworks */,
+				32BE74502DC943ED00630D25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				32BE74532DC943ED00630D25 /* MVVM */,
+			);
+			name = MVVM;
+			packageProductDependencies = (
+			);
+			productName = MVVM;
+			productReference = 32BE74522DC943ED00630D25 /* MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32BE74812DE0A14900630D25 /* VIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BE74962DE0A14A00630D25 /* Build configuration list for PBXNativeTarget "VIPER" */;
+			buildPhases = (
+				32BE747E2DE0A14900630D25 /* Sources */,
+				32BE747F2DE0A14900630D25 /* Frameworks */,
+				32BE74802DE0A14900630D25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				32BE74832DE0A14900630D25 /* VIPER */,
+			);
+			name = VIPER;
+			packageProductDependencies = (
+			);
+			productName = VIPER;
+			productReference = 32BE74822DE0A14900630D25 /* VIPER.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,6 +169,12 @@
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					32BE74342DC93FE300630D25 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					32BE74512DC943ED00630D25 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					32BE74812DE0A14900630D25 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -113,6 +194,8 @@
 			projectRoot = "";
 			targets = (
 				32BE74342DC93FE300630D25 /* MyNotes */,
+				32BE74512DC943ED00630D25 /* MVVM */,
+				32BE74812DE0A14900630D25 /* VIPER */,
 			);
 		};
 /* End PBXProject section */
@@ -125,10 +208,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32BE74502DC943ED00630D25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BE74802DE0A14900630D25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32BE74312DC93FE300630D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BE744E2DC943ED00630D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BE747E2DE0A14900630D25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,6 +422,112 @@
 			};
 			name = Release;
 		};
+		32BE74652DC943EE00630D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mynotes.MVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32BE74662DC943EE00630D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mynotes.MVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32BE74932DE0A14A00630D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VIPER/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mynotes.VIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32BE74942DE0A14A00630D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VIPER/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mynotes.VIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -328,6 +545,24 @@
 			buildConfigurations = (
 				32BE74492DC93FE500630D25 /* Debug */,
 				32BE744A2DC93FE500630D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BE74642DC943EE00630D25 /* Build configuration list for PBXNativeTarget "MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BE74652DC943EE00630D25 /* Debug */,
+				32BE74662DC943EE00630D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BE74962DE0A14A00630D25 /* Build configuration list for PBXNativeTarget "VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BE74932DE0A14A00630D25 /* Debug */,
+				32BE74942DE0A14A00630D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

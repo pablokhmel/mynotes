@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  MyNotes
+//  MVVM
 //
 //  Created by Pavel Khmialeuski1 on 05/05/2025.
 //

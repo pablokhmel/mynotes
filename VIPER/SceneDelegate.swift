@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  MyNotes
+//  VIPER
 //
-//  Created by Pavel Khmialeuski1 on 05/05/2025.
+//  Created by Pavel Khmialeuski1 on 23/05/2025.
 //
 
 import UIKit
