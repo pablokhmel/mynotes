@@ -15,6 +15,12 @@ class AppFlowCoordinator {
     }
     
     public func pushAddNoteScreen() {
-        
+        let addNoteViewModel = AddNoteViewModel(flowCoordinator: self)
+        let viewController = AddNoteViewController(viewModel: addNoteViewModel)
+        navigationController.present(viewController, animated: true)
+    }
+    
+    public func dismiss() {
+        navigationController.dismiss(animated: true)
     }
 }
